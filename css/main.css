@@ -139,6 +139,7 @@ img {
 
 .header-item {
     display: flex;
+    align-items: center;
     margin-left: auto;
 }
 
@@ -148,15 +149,12 @@ img {
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    background-image: url(../images/1.png);
+    background-image: url(../images/1.svg);
+    /* background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain; */
 }
 
-/* .item .item-mail:focus,
-.item .item-mail:hover {
-    color: var(--accent-color);
-} */
 
 .item-tel::before {
     display: inline-block;
@@ -164,7 +162,8 @@ img {
     width: 10px;
     height: 16px;
     margin-right: 10px;
-    background-image: url(../images/2.png);
+    background-image: url(../images/2.svg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -242,7 +241,7 @@ img {
     border-radius: 4px;
     margin-bottom: 30px;
     background-position: center;
-    background-size: auto;
+    background-size: 70px;
     background-repeat: no-repeat;
 }
 
@@ -254,19 +253,19 @@ img {
 
 
 .disc::before {
-    background-image: url(../images/3.png);
+    background-image: url(../images/3.svg);
 }
 
 .clock::before {
-    background-image: url(../images/4.png);
+    background-image: url(../images/4.svg);
 }
 
 .comp::before {
-    background-image: url(../images/5.png);
+    background-image: url(../images/5.svg);
 }
 
 .cosmo::before {
-    background-image: url(../images/6.png);
+    background-image: url(../images/6.svg);
 }
 
 .feature .title {

@@ -169,7 +169,7 @@ img {
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    background-image: url(../images/1.png);
+    background-image: url(../images/1.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -184,7 +184,7 @@ img {
     width: 10px;
     height: 16px;
     margin-right: 10px;
-    background-image: url(../images/2.png);
+    background-image: url(../images/2.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }

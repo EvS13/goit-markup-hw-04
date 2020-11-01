@@ -142,8 +142,35 @@ img {
     margin-left: auto;
 }
 
+.item-mail::before {
+    display: inline-block;
+    content: "";
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    background-image: url(../images/1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* .item .item-mail:focus,
+.item .item-mail:hover {
+    color: var(--accent-color);
+} */
+
+.item-tel::before {
+    display: inline-block;
+    content: "";
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    background-image: url(../images/2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .header-item .item + .item {
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 
@@ -177,6 +204,7 @@ img {
         rgba(47, 48, 58, 0.4)
         ),
     url('../images/header-img-1.jpg');
+    background-color: #757575;
     background-repeat: no-repeat;
 }
 
@@ -206,6 +234,40 @@ img {
     width: 270px;
 }
 
+.list-item::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+/* Можно использовать этот вариант
+
+.list-item :nth-child(1)::before {
+    background-image: url(../images/3.png);
+} */
+
+
+.disc::before {
+    background-image: url(../images/3.png);
+}
+
+.clock::before {
+    background-image: url(../images/4.png);
+}
+
+.comp::before {
+    background-image: url(../images/5.png);
+}
+
+.cosmo::before {
+    background-image: url(../images/6.png);
+}
 
 .feature .title {
     margin-top: 0;

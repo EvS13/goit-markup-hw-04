@@ -160,20 +160,20 @@ img {
 
 .header-item {
     display: flex;
+    align-items: center;
     margin-left: auto;
 }
 
 .item-mail::before {
-    display: inline-block;
+    display: inline-flex;
     content: "";
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    background-image: url(../images/1.svg);
+    background-image: url(../images/envelop.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
-
 
 
 .header-item .item + .item {
@@ -181,12 +181,12 @@ img {
 }
 
 .item-tel::before {
-    display: inline-block;
+    display: inline-flex;
     content: "";
     width: 10px;
     height: 16px;
     margin-right: 10px;
-    background-image: url(../images/2.svg);
+    background-image: url(../images/phone.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }

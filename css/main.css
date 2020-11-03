@@ -140,7 +140,7 @@ img {
 
 .header-item {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     margin-left: auto;
 }
 
@@ -149,7 +149,9 @@ img {
     margin-left: 30px;
 }
 
-.item-mail::before {
+
+
+/* .item-mail::before {
     display: inline-block;
     align-items: center;
     content: "";
@@ -168,7 +170,7 @@ img {
     height: 16px;
     margin-right: 10px;
     background-image: url(../images/phone.svg);
-}
+} */
 
 
 .header-item .link {
@@ -176,21 +178,16 @@ img {
     text-decoration: none;
 }
 
-.link:focus,
+
+/* .link:focus,
 .link:hover {
-    color: var(--accent-color);
-}
-/*
- .link:focus .item-mail,
- .link:hover .item-mail {
     color: var(--accent-color);
 } */
 
-
-.item-mail .link:focus,
+/* .item-mail .link:focus,
 .item-mail .link:hover {
     color: var(--accent-color);
-}
+} */
 
 /* hero */
 
@@ -242,7 +239,7 @@ img {
     width: 270px;
 }
 
-.list-item::before {
+/* .list-item::before {
     display: block;
     content: "";
     height: 120px;
@@ -252,7 +249,7 @@ img {
     background-position: center;
     background-size: 70px;
     background-repeat: no-repeat;
-}
+} */
 
 /* Можно использовать этот вариант
 
@@ -261,21 +258,7 @@ img {
 } */
 
 
-.disc::before {
-    background-image: url(../images/table.svg);
-}
 
-.clock::before {
-    background-image: url(../images/clock.svg);
-}
-
-.comp::before {
-    background-image: url(../images/monitor.svg);
-}
-
-.cosmo::before {
-    background-image: url(../images/cosmo.svg);
-}
 
 .feature .title {
     margin-top: 0;
@@ -330,12 +313,12 @@ img {
 }
 
 
-.clients {
+/* .clients {
     padding-top: 94px;
     padding-bottom: 94px;
-}
+} */
 
-.clients-title {
+/* .clients-title {
     color: var(--title-text-color);
     font-family: Roboto;
     font-style: normal;
@@ -346,10 +329,10 @@ img {
     letter-spacing: 0.03em;
     margin-top: 0;
     margin-bottom: 50px;
-}
+} */
 
-.icon-title {
-    display: inline-flex;
+/* .icon-title {
+    display: flex;
     content: "";
     color: var(--icon-color);
     border: 1px solid var(--icon-color);
@@ -358,19 +341,18 @@ img {
     border-radius: 4px;
     background-position: center;
     background-repeat: no-repeat;
-}
+} */
 
-.icon-list .icon-title +.icon-title {
+/* .icon-list .icon-title +.icon-title {
     margin-left: 30px;
-}
+} */
 
 
-.icon {
+/* .icon {
 display: flex;
 width: 20px;
 height: 20px;
-
-}
+} */
 
 .list .team-list + .team-list {
     margin-left: 30px;

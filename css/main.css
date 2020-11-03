@@ -138,34 +138,30 @@ img {
 /* header-item */
 
 .header-item {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     margin-left: auto;
 }
 
 .item-mail::before {
     display: inline-block;
+    text-align: center;
     content: "";
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    background-image: url(../images/1.svg);
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain; */
+    background-image: url(../images/envelop.svg);
 }
 
 
 .item-tel::before {
     display: inline-block;
+    align-items: center;
     content: "";
     width: 10px;
     height: 16px;
     margin-right: 10px;
-    background-image: url(../images/2.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-image: url(../images/phone.svg);
 }
 
 .header-item .item + .item {
@@ -178,10 +174,16 @@ img {
     text-decoration: none;
 }
 
-.header-item .link:hover,
-.header-item .link:focus {
-    color:  var(--accent-color);
+.link:focus,
+.link:hover {
+    color: var(--accent-color);
 }
+
+ .item-mail .link:focus,
+ .item-mail .link:hover{
+    color: var(--accent-color);
+}
+
 
 /* hero */
 
@@ -253,19 +255,19 @@ img {
 
 
 .disc::before {
-    background-image: url(../images/3.svg);
+    background-image: url(../images/table.svg);
 }
 
 .clock::before {
-    background-image: url(../images/4.svg);
+    background-image: url(../images/clock.svg);
 }
 
 .comp::before {
-    background-image: url(../images/5.svg);
+    background-image: url(../images/monitor.svg);
 }
 
 .cosmo::before {
-    background-image: url(../images/6.svg);
+    background-image: url(../images/cosmo.svg);
 }
 
 .feature .title {
@@ -320,6 +322,13 @@ img {
     background-color: var(--secondary-br-color);
 }
 
+
+.icon {
+display: block;
+width: 44px;
+height: 44px;
+padding: 0;
+}
 
 .list .team-list + .team-list {
     margin-left: 30px;

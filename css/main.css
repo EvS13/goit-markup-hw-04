@@ -156,11 +156,6 @@ img {
     margin-right: 10px;
 }
 
-.link-icon:hover,
-.link-icon:focus {
-    color: var(--accent-color);
-}
-
 .header-item .link {
     color: var(--primary-text-color);
     text-decoration: none
@@ -171,10 +166,10 @@ img {
     color: var(--accent-color);
 }
 
-/* .link:hover .link-icon,
-.link:focus .link-icon {
-    color: var(--accent-color);
-} */
+.link:hover .link-icon,
+.link:focus .linl-icon {
+    fill: var(--accent-color);
+}
 
 /* hero */
 
@@ -299,6 +294,35 @@ border-radius: 4px;
     background-color: var(--secondary-br-color);
 }
 
+/* social-icon */
+/*
+.social-link {
+    display: flex;
+    margin: 0;
+    width: 44px;
+    height: 44px;
+} */
+
+/* .social-link
+display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  color: #afb1b8;
+  background-color: var(--white-color);
+} */
+
+/* .social-item {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+} */
 
 .clients {
     padding-bottom: 94px;
@@ -319,29 +343,40 @@ border-radius: 4px;
     margin-bottom: 50px;
 }
 
-
-.icon-title {
-    display: flex;
-    padding: 0;
-    width: 170px;
-    height: 90px;
-    border: 1px solid rgba(175, 177, 184, 1);
-    box-sizing: border-box;
-    border-radius: 4px;
-    margin-right: 30px;
-}
-
-/* .icon-title :last-child{
-    margin-right: 30px;
-} */
-
 .icon-clients {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
-    padding: 0;
 }
+
+.icon-title {
+    margin-right: 30px;
+}
+
+
+.link-clients:hover,
+.link-clients:focus {
+    border-color: var(--accent-color);
+}
+
+.link-clients:hover .icon-clients,
+.link-clients:focus .icon-clients {
+    fill: var(--accent-color);
+}
+
+.link-clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #AFB1B8;
+    width: 170px;
+    height: 90px;
+    border: 1px solid rgba(175, 177, 184, 1);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
 
 .list .team-list + .team-list {
     margin-left: 30px;

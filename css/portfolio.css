@@ -188,6 +188,10 @@ img {
     color: var(--accent-color);
 }
 
+.link:hover .link-icon,
+.link:focus .linl-icon {
+    fill: var(--accent-color);
+}
 
 /* title */
 

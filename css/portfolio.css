@@ -164,31 +164,18 @@ img {
     margin-left: auto;
 }
 
-.item-mail::before {
-    display: inline-flex;
-    content: "";
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-    background-image: url(../images/envelop.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
 
 .header-item .item + .item {
     margin-left: 30px;
 }
 
-.item-tel::before {
-    display: inline-flex;
-    content: "";
-    width: 10px;
-    height: 16px;
+.link {
+    display: flex;
+    align-items: center;
+}
+
+.link-icon {
     margin-right: 10px;
-    background-image: url(../images/phone.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .header-item .link {
@@ -196,9 +183,8 @@ img {
     text-decoration: none;
 }
 
-
-.link:focus,
-.link:hover {
+.link:hover,
+.link:focus {
     color: var(--accent-color);
 }
 

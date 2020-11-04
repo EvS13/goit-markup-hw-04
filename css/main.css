@@ -6,7 +6,7 @@
     --primary-br-color:#FFFFFF;
     --secondary-br-color:#F5F4FA;
     --footer-br-color:#2F303A;
-    --icon-color:rgba(175, 177, 184, 1)
+    --icon-color: rgba(175, 177, 184, 1);
 }
 
 /* body */
@@ -99,7 +99,6 @@ img {
 }
 
 
-
 /* site-nav */
 
 .site-nav {
@@ -135,12 +134,11 @@ img {
 }
 
 
-
 /* header-item */
 
 .header-item {
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     margin-left: auto;
 }
 
@@ -149,43 +147,32 @@ img {
     margin-left: 30px;
 }
 
-
-
-/* .item-mail::before {
-    display: inline-block;
+.link {
+    display: flex;
     align-items: center;
-    content: "";
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-    background-image: url(../images/envelop.svg);
 }
 
-
-.item-tel::before {
-    display: inline-block;
-    align-items: center;
-    content: "";
-    width: 10px;
-    height: 16px;
+.link-icon {
     margin-right: 10px;
-    background-image: url(../images/phone.svg);
-} */
+}
 
+.link-icon:hover,
+.link-icon:focus {
+    color: var(--accent-color);
+}
 
 .header-item .link {
     color: var(--primary-text-color);
-    text-decoration: none;
+    text-decoration: none
 }
 
-
-/* .link:focus,
-.link:hover {
+.link:hover,
+.link:focus {
     color: var(--accent-color);
-} */
+}
 
-/* .item-mail .link:focus,
-.item-mail .link:hover {
+/* .link:hover .link-icon,
+.link:focus .link-icon {
     color: var(--accent-color);
 } */
 
@@ -236,28 +223,28 @@ img {
 }
 
 .feature-item {
+    display: flex;
     width: 270px;
-}
-
-/* .list-item::before {
-    display: block;
-    content: "";
     height: 120px;
-    background-color: #F5F4FA;
+    justify-content: center;
+    align-items: center;
+    background: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
-    background-position: center;
-    background-size: 70px;
-    background-repeat: no-repeat;
-} */
 
-/* Можно использовать этот вариант
+}
+
+
+ /* Можно использовать этот вариант
 
 .list-item :nth-child(1)::before {
-    background-image: url(../images/3.png);
+    background-image: url(../images/sprite.svg);
 } */
 
-
+.featere-icon {
+    background: #F5F4FA;
+border-radius: 4px;
+}
 
 
 .feature .title {
@@ -313,12 +300,13 @@ img {
 }
 
 
-/* .clients {
-    padding-top: 94px;
+.clients {
     padding-bottom: 94px;
-} */
+    padding-top: 94px;
+}
 
-/* .clients-title {
+
+.clients-title {
     color: var(--title-text-color);
     font-family: Roboto;
     font-style: normal;
@@ -329,23 +317,23 @@ img {
     letter-spacing: 0.03em;
     margin-top: 0;
     margin-bottom: 50px;
-} */
+}
 
-/* .icon-title {
+.icon-title {
     display: flex;
-    content: "";
-    color: var(--icon-color);
-    border: 1px solid var(--icon-color);
-    width: 190px;
+    padding: 0;
+    width: 170px;
     height: 90px;
+    border: 1px solid rgba(175, 177, 184, 1);
+    box-sizing: border-box;
     border-radius: 4px;
-    background-position: center;
-    background-repeat: no-repeat;
-} */
+    margin-right: 30px;
+}
 
-/* .icon-list .icon-title +.icon-title {
-    margin-left: 30px;
-} */
+
+.icon-title :last-child{
+    margin-right: 30px;
+}
 
 
 /* .icon {

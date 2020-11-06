@@ -176,6 +176,12 @@ img {
 }
 
 .link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     display: flex;
     align-items: center;
 }
@@ -240,8 +246,8 @@ margin-bottom: 4px;
 .button.secondary {
     padding: 6px 22px;
     border-radius: 4px;
-    color: var(--title-text-color);
-    background-color: var(--secondary-br-color);
+    border-color: transparent;
+    background: var(--secondary-br-color);
 }
 
 .button:hover,

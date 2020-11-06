@@ -223,6 +223,7 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
 }
+
 .button-list{
     padding: 20px 24px;
 }
@@ -261,8 +262,12 @@ margin-bottom: 4px;
 /* footer */
 
 .footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    width: 1600px;
+    height: 252px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 66px;
+    padding-bottom: 54px;
     background-color: var(--footer-br-color);
     font-style: normal;
     font-weight: 400;
@@ -297,50 +302,54 @@ margin-bottom: 4px;
     display: block;
     margin-top: 0;
     margin-bottom: 20px;
-  }
+}
 
 .footer-item {
     display: flex;
 }
 
-  .footer-link {
-      display: flex;
-      width: 44px;
-      height: 44px;
-      background-color: rgba(255, 255, 255, 0.1);
-      justify-content: center;
-      align-items: center;
-      border: 1px solid transparent;
-      border-radius: 50%;
-  }
+.footer-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
 
-  .footer-list:not(:last-child) {
-      margin-right: 10px;
-  }
+.footer-list:not(:last-child) {
+    margin-right: 10px;
+}
 
-  .footer-link:hover,
-  .footer-link:focus {
-      background-color: var(--accent-color);
-  }
+.footer-link:hover,
+.footer-link:focus {
+    background-color: var(--accent-color);
+}
 
-  .footer-title {
-      color: var(--button-color);
-      font-family: Roboto;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 1.14;
-      letter-spacing: 0.03em;
+.footer-title {
+    color: var(--button-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
 
-  }
-  .footer-icon {
-      padding-top: 87px;
-      padding-bottom: 85px;
-  }
+.footer-icon {
+    margin-left: 70px;
+}
 
 
-  .footer-svg {
-      width: 20px;
-      height: 20px;
-      fill: var(--button-color);
-  }
+.footer-svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--button-color);
+}
+
+.container-icon {
+    display: flex;
+    align-items: baseline;
+}
